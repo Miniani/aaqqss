@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: aaqqss
+  name: ggdeeq
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: aaqqss
+      app: ggdeeq
   template:
     metadata:
       labels:
-        app: aaqqss
+        app: ggdeeq
     spec:
       containers:
-      - image: okteto.dev/aaqqss:latest
-        name: aaqqss
+      - image: okteto.dev/ggdeeq:latest
+        name: ggdeeq
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "e7952a29-7b16-4908-aaa8-8eface9c4f26"
+          value: "a26e57cb-0381-40cf-9a70-c5a6a02f6ec6"
         - name: Vless_Path
           value: "/vldste46dsh2"
         - name: Vmess_UUID
-          value: "e7952a29-7b16-4908-aaa8-8eface9c4f26"
+          value: "a26e57cb-0381-40cf-9a70-c5a6a02f6ec6"
         - name: Vmess_Path
           value: "/vmfwr32qwauj"
         - name: Share_Path
